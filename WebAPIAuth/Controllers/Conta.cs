@@ -64,23 +64,12 @@ namespace WebAPIAuth.Controllers
         }
 
         [HttpGet]
-        [Route("nao-autenticado")]
+        [Route("usuarios")]
         [AllowAnonymous]
-        public string Anonimo() => "Sem autenticação";
+        public ActionResult<List<Usuario>> ListUsuarios()
+        {
+            return Ok(DbUsuarios);
+        }
 
-        [HttpGet]
-        [Route("autenticado")]
-        [Authorize]
-        public string Autenticado() => "Autenticado";
-
-        [HttpGet]
-        [Route("aluno")]
-        [Authorize(Roles = "Aluno,Professor")]
-        public string Aluno() => "Aluno";
-
-        [HttpGet]
-        [Route("professor")]
-        [Authorize(Roles = "Professor")]
-        public string Professor() => "Professor";
     }
 }

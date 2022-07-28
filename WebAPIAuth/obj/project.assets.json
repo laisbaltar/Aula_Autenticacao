@@ -1173,19 +1173,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\laiss\\.nuget\\packages\\": {}
+    "C:\\Users\\anderlanys\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\laiss\\Documents\\Aulas\\5. .Net framework\\Aula 28_07\\WebAPIAuth\\WebAPIAuth.csproj",
+      "projectUniqueName": "C:\\Users\\anderlanys\\Desktop\\Aula_Autenticacao\\WebAPIAuth\\WebAPIAuth.csproj",
       "projectName": "WebAPIAuth",
-      "projectPath": "C:\\Users\\laiss\\Documents\\Aulas\\5. .Net framework\\Aula 28_07\\WebAPIAuth\\WebAPIAuth.csproj",
-      "packagesPath": "C:\\Users\\laiss\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\laiss\\Documents\\Aulas\\5. .Net framework\\Aula 28_07\\WebAPIAuth\\obj\\",
+      "projectPath": "C:\\Users\\anderlanys\\Desktop\\Aula_Autenticacao\\WebAPIAuth\\WebAPIAuth.csproj",
+      "packagesPath": "C:\\Users\\anderlanys\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anderlanys\\Desktop\\Aula_Autenticacao\\WebAPIAuth\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\laiss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\anderlanys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
